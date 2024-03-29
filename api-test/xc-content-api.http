@@ -1,0 +1,49 @@
+http://localhost:63040/course/list?pageNo=2&pageSize=10
+
+HTTP/1.1 200
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 07 Sep 2022 00:54:50 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+  "items": [
+    {
+      "id": 88,
+      "companyId": 1232141425,
+      "companyName": null,
+      "name": "1",
+      "users": "1",
+      "tags": "1",
+      "mt": "1-1",
+      "mtName": null,
+      "st": "1-1-1",
+      "stName": null,
+      "grade": "204001",
+      "teachmode": "200002",
+      "description": "1",
+      "pic": "http://r3zc5rung.hd-bkt.clouddn.com/cb1b6038-ef68-4362-8c29-a966886d1dc5sakUiFHLb5sRFdIK",
+      "createDate": "2021-12-27 20:14:53",
+      "changeDate": "2021-12-27 20:28:58",
+      "createPeople": null,
+      "changePeople": null,
+      "auditStatus": "202002",
+      "auditMind": null,
+      "auditNums": 0,
+      "auditDate": null,
+      "auditPeople": null,
+      "status": 1,
+      "coursePubId": null,
+      "coursePubDate": null
+    },
+   ....
+  ],
+  "counts": 14,
+  "page": 2,
+  "pageSize": 10
+}
+Response file saved.
+> 2022-09-07T085450.200.json
+
+Response code: 200; Time: 392ms (392 ms); Content length: 1916 bytes (1.92 kB)

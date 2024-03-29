@@ -1,0 +1,2 @@
+2024-03-08 22:12:32,702 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://127.0.0.1:8848， err : connect timed out
+2024-03-08 22:12:34,725 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect
